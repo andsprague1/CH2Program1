@@ -6,23 +6,7 @@ using namespace std;
 
 int main()
 {
-    //Vars needed precent, money, floatingPercent, finalAmount
-    double percent,money,floatingPercent,finalAmount;
-
-    //Input percent
-    cout << "What is the percent?";
-    cin >> percent;
-    //    Input money
-    cout << "How much money?";
-    cin >> money;
-    //    floatingPercent = percent / 100
-    floatingPercent = percent / 100;
-        //    finalAmount = floatingPercent * money
-    finalAmount = floatingPercent * money;
-    //    display finalAmount
-    cout << "The amount removed for retirement is:";
-    cout << finalAmount<<endl<<endl;
-
+    cout << "Hello World";
     return 0;
 
 }
