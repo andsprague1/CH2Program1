@@ -6,7 +6,9 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World";
+    int digit1, digit2,
+        digit3, digit4, input;
+
     return 0;
 
 }
