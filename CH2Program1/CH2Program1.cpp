@@ -2,6 +2,7 @@
 //
 
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main()
@@ -14,7 +15,7 @@ int main()
     double discount = percent * price;
     //    print discount
     
-    cout << "Your discount is " << discount;
+    cout <<setprecision(3)<<fixed << "Your discount is " << discount;
 
     return 0;
 
