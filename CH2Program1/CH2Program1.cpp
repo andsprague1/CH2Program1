@@ -20,7 +20,7 @@ int main()
         //    finalAmount = floatingPercent * money
     finalAmount = floatingPercent * money;
     //    display finalAmount
-    cout << "The amount deducted for retirement is:";
+    cout << "The amount removed for retirement is:";
     cout << finalAmount<<endl<<endl;
 
     return 0;
