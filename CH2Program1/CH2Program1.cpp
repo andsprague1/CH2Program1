@@ -6,7 +6,16 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World";
+//    price = 59.95
+    double price = 59.95;
+        //      percent = .20
+    double percent = .2;
+   //     discount = price * percent
+    double discount = percent * price;
+    //    print discount
+    
+    cout << "Your discount is " << discount;
+
     return 0;
 
 }
